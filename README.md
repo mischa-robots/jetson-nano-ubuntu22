@@ -19,7 +19,11 @@ These components are redistributed **unmodified** under the original NVIDIA Tegr
 
 The full NVIDIA license text is included in this repository as:
 
-* `NVIDIA-L4T-License.txt`
+* [NVIDIA-L4T-License.txt](NVIDIA-L4T-License.txt)
+
+Or on the official NVIDA website:
+
+* [Tegra_Software_License_Agreement-Tegra-Linux](https://developer.download.nvidia.com/embedded/L4T/r32_Release_v4.3/t186ref_release_aarch64/Tegra_Software_License_Agreement-Tegra-Linux.txt)
 
 Your use of this image must comply with the NVIDIA Tegra Software License Agreement.
 
@@ -43,8 +47,8 @@ Your use of this image must comply with the NVIDIA Tegra Software License Agreem
 ## Requirements
 
 * Jetson Nano (4GB or 2GB)
-* SD card — **64GB recommended**, 32GB minimum
-* Monitor + keyboard **or** ethernet for headless setup
+* SD card — **64GB recommended**, 16GB minimum
+* Monitor + keyboard **or** ethernet connection for headless setup via ssh
 
 ---
 
@@ -154,6 +158,13 @@ This image builds upon work from the community:
 
 * Qengineering — Jetson Ubuntu & CUDA guidance
   [https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html](https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html)
+
+
+This image includes:
+
+* jtop (jetson_stats) is licensed under AGPL-3.0.
+Source code is available at: https://github.com/rbonghi/jetson_stats
+AGPL-3.0 license is avaiable at: https://github.com/rbonghi/jetson_stats/blob/master/LICENSE
 
 ---
 
