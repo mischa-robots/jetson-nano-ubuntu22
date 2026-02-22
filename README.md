@@ -4,6 +4,8 @@ A ready-to-run Ubuntu 22.04 (Jammy) server image for the Jetson Nano with CUDA, 
 
 This image is based on NVIDIA JetPack 4.6.6 / L4T R32.7.6 and upgrades the userspace to Ubuntu 22.04.
 
+⚠️ Private Beta — This image is currently in private beta testing. The public download link will be published once everything is verified and working. If you'd like to help test, feel free to send me a DM or open a [GitHub Issue](https://github.com/mischa-robots/jetson-nano-ubuntu22/issues).
+
 ---
 
 ## What's Included
