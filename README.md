@@ -53,12 +53,12 @@ Download [Balena Etcher](https://etcher.balena.io), select `jetson-nano-ubuntu22
 
 ### With dd
 
+⚠️ Replace `/dev/sdX` with your actual SD card device. Double check with `lsblk` — writing to the wrong device will destroy your data.
+
 ```bash
 xz -dc jetson-nano-ubuntu22-server.img.xz | sudo dd of=/dev/sdX bs=4M status=progress
 sync
 ```
-
-> ⚠️ Replace `/dev/sdX` with your actual SD card device. Double check with `lsblk` — writing to the wrong device will destroy your data.
 
 ---
 
