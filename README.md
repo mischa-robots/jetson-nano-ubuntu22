@@ -18,20 +18,21 @@ This image is based on NVIDIA JetPack 4.6.6 / L4T R32.7.6 and upgrades the users
 | CUDA             | 10.2.300      | ✅ |
 | cuDNN            | 8.2.1         | ✅ |
 | TensorRT         | 8.2.0.1       | ✅ |
-| OpenCV           | 4.5.4 (CPU only) | ⚠️ CUDA build in progress |
+| OpenCV           | 4.8.1 (CUDA)  | ✅ |
 | VPI              | 1.2.3         | ✅ |
 | VisionWorks      | 1.6.0.501     | ✅ |
 | DeepStream       | 6.0.1         | ✅ |
 | GStreamer        | with nvvidconv, nvv4l2decoder, nvv4l2h264enc | ✅ |
-| MIPI CSI cameras | ?             | ✅ |
+| MIPI CSI cameras |               | ✅ |
 | Python           | 3.10.12       | ✅ |
 | [jtop](https://github.com/rbonghi/jetson_stats) | latest | ✅ |
 | [JetFanC](https://github.com/mischa-robots/JetFanC) | latest | ✅ |
 
 ## NOT Included
 
-* Desktop environment
-* Docker
+* Desktop environment (maybe in future as separate image)
+* Docker (maybe in future as separate image)
+* Vulkan drivers are not supported on the Jetson Nano.
 
 ---
 
@@ -40,6 +41,7 @@ This image is based on NVIDIA JetPack 4.6.6 / L4T R32.7.6 and upgrades the users
 * Jetson Nano (4GB or 2GB)
 * SD card — **64GB recommended**, 16GB minimum
 * Monitor + keyboard **or** ethernet connection for headless setup via SSH
+* optional: USB Stick for swapfile and other high IO files (reduces sd card wear).
 
 ---
 
